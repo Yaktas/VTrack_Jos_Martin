@@ -1,4 +1,4 @@
-package com.cybertek.tests.utilities;
+package com.cybertek.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +15,7 @@ public class WebDriverFactory {
                 driver=new ChromeDriver();
                 break;
 
-            case"fairfox":
+            case"firefox":
                 WebDriverManager.firefoxdriver().setup();
                 driver=new FirefoxDriver();
         }

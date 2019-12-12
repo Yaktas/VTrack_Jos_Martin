@@ -1,6 +1,6 @@
 package com.cybertek.tests.BasicNavigationTests;
 
-import com.cybertek.tests.utilities.BrowserFactory;
+import com.cybertek.utilities.BrowserFactory;
 import org.openqa.selenium.WebDriver;
 
 public class NavigationTest {
